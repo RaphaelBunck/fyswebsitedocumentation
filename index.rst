@@ -10,11 +10,21 @@ Welcome to FYS Website's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
-
 Indices and tables
 ==================
 
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+Installation
+============
+Install project by cloning project and running:
+
+    npm install
+    npm start
+
+The project will run on localhost:3000
+
+You need to have mongodb running, we don't add placeholder users by default so
+you need to register first at /user/register.
