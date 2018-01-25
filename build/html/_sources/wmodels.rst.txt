@@ -1,0 +1,42 @@
+.. _wmodels:
+
+Website Models
+==============
+
+Here you will find all website model functions.
+
+
+
+models.image.uploadData
+-----------------------
+Function for hashing password, and saving image object to database
+
+**Parameters**
+
+* newImage  - Image object you want to save to db
+* callback
+
+**Returns**
+
+Callback function
+
+
+
+models.image.getProfileImage
+----------------------------
+Searches the DB for a profileimage, where owner is current user
+
+**Parameters**
+
+* user
+* callback
+
+**Returns**
+
+Error or image.path
+
+
+
+user.js
+-------
+
